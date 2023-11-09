@@ -1,0 +1,6 @@
+发出npm install命令
+查询node_modules目录中是否已经存在指定模块
+若存在，不在安装
+若不存在，npm向registry注册表查询模块压缩包的地址
+下载压缩包到根目录下的.npm目录里
+解压压缩包到当前项目的node_modules目录中
