@@ -1,0 +1,3 @@
+
+初始化累加值accumulator为初始值initialValue为初始值否则为undefined
+使用for循环遍历数组的每个元素，并通过回调函数更新累加值
