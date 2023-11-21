@@ -7,3 +7,4 @@ function myNew(Constructor, ...args) {
    return ( typeof result === 'object' && result !== null ) ? result : obj;
 }
 // 该实现并不完整，它没有处理构造函数的原型链和arguments对象等细节
+// 概念：创建一个用户定义的对象类型的实例或具有构造函数的内置对象的实例
