@@ -10,3 +10,5 @@ function myInstanceOf(obj, constructor) {
    }
    return false;
 }
+//原理：用于检测构造函数prototype属性是否出现在某个实例对象的原型链上
+//缺点：层级比较深时，检查效率就会比较低下

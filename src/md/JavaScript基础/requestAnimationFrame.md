@@ -1,0 +1,7 @@
+
+
+告诉浏览器执行动画并在下次重绘之前调用指定函数来更新动画
+该方法使用回调函数作为参数
+
+setTimeout、setInterval 和 requestAnimationFrame 之间的区别
+不需要设置时间间隔，帧
