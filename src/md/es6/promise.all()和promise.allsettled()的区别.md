@@ -1,0 +1,14 @@
+
+
+是两个promise相关的方法，都用于处理多个promise对象的并发执行
+
+promise.all()返回的是所有promise都resolve后才会返回promise返回值的数组
+如果有一个reject则返回这个错误信息
+
+只有所有promise都成功了才算成功，有一个失败就算失败
+
+promise.allsettled()返回的是所有promise对象都resolve和reject的状态对象的数组，
+每个对象都包含一个status表示promise对象，和value表示promise的返回值或者错误信息
+
+等到所有promise都执行完毕，无论成功还是失败，都会把所有的状态信息收集到数组里返回
+

@@ -2,5 +2,5 @@
 for in 输出索引
 for of 输出值
 2循环对象
-for in可以遍历对象
-for of不能遍历对象，只能遍历Set Map
+for in可以遍历对象，输出键名
+for of不能遍历对象，只能遍历Set Map，输出元素值

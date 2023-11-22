@@ -1,4 +1,4 @@
-1const let
+1块级作用域const let
 2解构赋值
 3模版字符串
 4函数的扩展
@@ -17,7 +17,7 @@
     方法简写
     属性名可心使用表达式
 7Set Map
-8Promise
+8Promise和async/await
 9Generator和async await
-10class
+10类和继承class extends
 11module
