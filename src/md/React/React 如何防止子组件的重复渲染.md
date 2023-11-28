@@ -1,0 +1,7 @@
+
+
+PureComponent
+
+React.memo()
+
+shouldComponentUpdate

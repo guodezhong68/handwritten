@@ -9,3 +9,6 @@ symbol不会出现在for in，for of，Object.keys()，
 Object.getOwnPropertyNames()等遍历对象方法中，
 因此可以用来定义一些不希望被遍历到的属性，
 例如一些内部实现细节或隐藏属性
+
+会出现在Reflect.ownKeys()中
+返回所有键，包括symbol
